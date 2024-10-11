@@ -1,0 +1,51 @@
+/*Estilos universales
+aplica a todos los componentes del documento HTML*/
+/*Esta url esta importada del google fonds para utilizar en las etiquetas h1, h2, h3*/
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+* {
+    margin: 0 px;
+    font-size: 15px;
+
+}
+thead {
+    color:red
+}
+/**Aqui es dond centramos nuestras tablas le ponesmos brodes centramos y ponemos color */
+table,
+th , 
+tr, 
+td{
+    border: 20px;
+    border-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    border: 0.5px solid rgb(0, 0, 0);
+    
+}
+/*En este apartado utilizamos la url de google fonts ""Sixtyfour Convergence", sans-serif"*/
+h1,
+h2,
+h3{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    color: black;
+    
+
+
+}
+/*Esto es un div con nombre tablas para poner un fondo en y estas etiquetas fueron extraidas de un video de youtube pero son etiquetas que solo ayudar a que la imagen se centre nose repita y cubra todo el espacio del div*/
+.tablas{
+    background: url(imagenes/fondo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+ /*Esto es un div con nombre estadios para poner un fondo en y estas etiquetas fueron extraidas de un video de youtube pero son etiquetas que solo ayudar a que la imagen se centre nose repita y cubra todo el espacio del div*/
+ .estadio{
+    background-image: url(imagenes/kong.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
